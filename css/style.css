@@ -1,0 +1,144 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+   width: 100%;
+   min-height: 100vh;
+   font-family: 'Lato', arial, sans-serif;
+   font-size: 14px;
+   color: #ffffff;
+ }
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #ffffff
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+}
+.wrapper {
+  width: 1000px;
+  padding-bottom: 170px;
+  margin: 0 auto;
+  background:url("../img/bg.jpg")  no-repeat 0 0;
+  background-size: cover;
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+  background: #212534;
+}
+section {
+  margin: 0 auto;
+  width: 510px;
+}
+header .container {
+  background: #2b3040;
+}
+.container .tabs-section {
+  display: flex;
+  justify-content: space-around;
+}
+.tabs-section .content-tab {
+  min-height: 112px;
+}
+.content-tab.tab-active {
+  border-bottom: 2px solid #ffffff;
+  color: #fbfbfb;
+}
+.tabs-section .content-tab a  {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  padding: 60px 0 30px 0;
+}
+.tabs-section .content-tab:hover {
+  border-bottom: 2px solid #FFFFFF;
+  opacity: .5;
+  overflow: hidden;
+}
+.tabs-section .content-tab:active {
+  border-bottom: 2px solid #FFFFFF;
+  overflow: hidden;
+}
+.tabs-section .content-tab a img {
+  position: absolute;
+  top: 30px;
+  left: 62px;
+}
+
+.container .content-section {
+  display: none;
+  padding: 60px 0 60px 0;
+  overflow: hidden;
+}
+.container .content-section.active {
+  display: block;
+  margin-bottom: 170px;
+  padding: 60px 0 60px 0;
+  overflow: hidden;
+}
+.content-section .left-content {
+  float: left;
+  width: 160px;
+}
+.content-section .left-content img:last-child {
+  margin-top: 25px;
+}
+.content-section .right-content {
+  float: right;
+  width: 310px;
+}
+.right-content .game-info {
+  position: relative;
+}
+.right-content .game-info img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.right-content .game-info h1 {
+  font-size: 32px;
+  font-weight: 400;
+}
+.right-content .game-info p {
+  font-weight: 400;
+  padding: 0;
+}
+.right-content  p {
+  padding: 35px 0 60px 0;
+  color: #b7bacd;
+}
+.right-content .game-cost  {
+   display: flex;
+   justify-content: space-between;
+ }
+.game-cost .game-price h6{
+  font-size: 12px;
+  color: #dec13d;
+}
+.game-price h3{
+  font-size: 32px;
+  font-weight: 400;
+}
+.game-cost button  {
+  min-height: 55px;
+  line-height: 55px;
+  padding: 0 35px 0 35px;
+  background-color: #13e28d;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 2px;
+}
